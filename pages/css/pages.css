@@ -14,5 +14,33 @@ body {
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
+nav { 
+    width: 50%;
+    height: 8%;
+    background-color: rgb(160, 98, 18);
+    padding:2px;
+    }
+nav a {
+    display:block;
+    text-decoration: none;  
+}
+
+nav a :hover{
+    border-bottom: double darkgoldenrod 2px;
+    display: block;
+    padding-bottom: 8%;
+}
+nav li {
+font-size: 1em;
+margin-top:1%;
+margin-right: 3%;
+
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
 
 /* Voeg jouw css hieraan toe */
