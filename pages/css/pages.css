@@ -314,3 +314,6 @@ nav ul li a{
         background-color: rgb(214, 225, 223); 
         color:rgb(91, 122, 140);
       }
+ .ruitknop:hover { font-weight: bold;
+    font-size: 1.3em;}
+ 
