@@ -315,7 +315,10 @@ nav ul li a{
         color:rgb(91, 122, 140);
       }
  .ruitknop:hover { font-weight: bold;
-    font-size: 0.1em;}
+    font-size: 0.1em;
+   
+}
+
     fieldset{
         padding: 10px;
         height: 10%;
