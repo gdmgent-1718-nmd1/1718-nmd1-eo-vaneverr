@@ -296,4 +296,6 @@ nav ul li a{
     #e-mail{
         text-align: left;
     }
-
+    .container{
+        font-family:sans-serif;
+    }
