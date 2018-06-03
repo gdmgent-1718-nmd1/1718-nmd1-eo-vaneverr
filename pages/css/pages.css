@@ -324,5 +324,8 @@ nav ul li a{
         height: 10%;
         width: 20%
     }
- 
- 
+
+a>img{
+    max-width: 15%;
+    max-height: 20%;
+}
