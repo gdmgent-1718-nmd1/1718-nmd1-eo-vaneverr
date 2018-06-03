@@ -212,7 +212,7 @@ nav ul li a{
         background-color:rgb(91, 122, 140);
         border-bottom: 20px solid black;
         padding: 0;
-        margin: 0;
+        margin: 10;
     }
     #foto2{
         float: left;
@@ -225,7 +225,7 @@ nav ul li a{
         background-color: rgb(91, 122, 140);
         border-bottom: 20px solid black;
         padding: 0;
-        margin: 0;
+        margin: 10;
     }
     #foto3{
         float: left;
@@ -238,7 +238,7 @@ nav ul li a{
         background-color: rgb(91, 122, 140);
         border-bottom: 20px solid black;
         padding: 0;
-        margin: 0;
+        margin: 10;
     }
     #text-block1{
         font-size: 30px;
