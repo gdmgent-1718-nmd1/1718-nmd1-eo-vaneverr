@@ -2,28 +2,317 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
+    <script src="jqueri.js"></script>
+	<script src="script.js"></script> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Digital Styleguide - Eindopdracht NMD-I</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/pages.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 </head>
 <body>
         <h1>Digital Styleguide</h1>
-    <nav>
-        <ul>
-            <li><img class="logo" src="images/logo.png"></li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pagina tickets.html">tickets</a></li>
-            <li><a href="pagina line-up.html">line-up</a></li>
-            <li><a href="pagina info.html">info</a></li>
-        </ul>
-    </nav>
-<table>
-    <tr>
-        <td> combi</td>
-    </tr>
-</table>
+            <!--nav-->
+        <header>
+            <nav>
+            <a href=""><img src="images/LOGO NMD 2.png" alt=""></a>
+                <ul class="navitems">
+                    <!--Zoek-->
+                        <div class="zoeken">
+                            <tr>
+                                <td><label for="zoeken">Zoeken:</label></td>
+                                <td><input type="text" name="zoeken" size="20" id="zoeken" placeholder="Zoeken"/></td>
+                            </tr> 
+                        </div><br>
+                        <br>
+                                <li><a href="#ticketslink">TICKETS</a></li>
+                                <li><a href="#line-uplink">LINE-UP</a></li>
+                                <li><a href="#infolink">INFO</a></li>
+                                <li><a href="#">FAQ</a></li>
+                
+                </ul>
+            </nav>
+        </header>
+        
     
-</body>
-</html>
+    <!-- tickets-->
+    <!--ruit-->
+    <section id="ticketslink" class="clearfix line-up"></section>
+    <div class="ruit">
+    
+            <svg 		width="500px" height="350px">
+                <rect 	x=250 y=250  width="100" height="100" 
+                        transform="translate(10,-125) rotate(45) translate(70,-135)" 
+                        style="fill:rgba(255,255,255, 0.01);stroke-width:3;stroke:rgb(202, 173, 134)" />
+                        
+            <rect 	x=250 y=250  width="100" height="100" 
+            transform="translate(10,-125) rotate(45) translate(60,-125)" 
+            style="fill:rgb(255,255,255, 0.01);stroke-width:3;stroke:rgb(230, 180, 15)" />
+    <text	 x="110.5" y="255" fill="hsla(166,64%,56%,1)" style=font-size:25px;>Tickets</text>
+            </svg>
+    </div>
+    
+    <div class=tabel>
+    <div class=container>
+            <div class=Idk></div>
+            <span class=ticket>Combi-ticket</span><span class=price>€ 250</span>
+            <div class=Idk></div>
+         <div>
+        <span class=date>6-7-8 juli</span>
+        </div>
+        <div class=bottomLine>
+                <span class=aantal>aantal
+                <select>
+                <option value="volvo">0</option>
+                <option value="saab">1</option>
+                <option value="opel">2</option>
+                <option value="audi">3</option>
+                <option value="audi">4</option>
+                <option value="audi">5</option>
+          </select>
+        </div></span>
+        <div class=space></div>
+              
+         </div>
+    
+        <div class=container>
+            <div class=Idk></div>
+                <span class=ticket>dag-ticket</span><span class=price>€ 100</span>
+                <div class=Idk></div>
+                <div>
+            <span class=date>6 juli</span>
+            </div>
+        <div class=bottomLine>
+            <span class=aantal>aantal
+            <select>
+                <option value="volvo">0</option>
+                <option value="saab">1</option>
+                <option value="opel">2</option>
+                <option value="audi">3</option>
+                <option value="audi">4</option>
+                <option value="audi">5</option>
+              </select>
+            </div></span>
+         <div class=space></div>
+                  
+        </div>
+        <div class=container>
+            <div class=Idk></div>
+                    <span class=ticket>dag-ticket</span><span class=price>€ 100</span>
+            <div class=Idk></div>
+            <div>
+            <span class=date>7 juli</span>
+        </div>
+    
+        <div class=bottomLine>
+            <span class=aantal>aantal
+                <select>
+                    <option value="volvo">0</option>
+                    <option value="saab">1</option>
+                    <option value="opel">2</option>
+                    <option value="audi">3</option>
+                    <option value="audi">4</option>
+                    <option value="audi">5</option>
+                 </select>
+                </div></span>
+            <div class=space></div>
+                          
+        </div>
+        <div class=container>
+            <div class=Idk></div>
+            <span class=ticket>dag-ticket</span><span class=price>€ 100</span>
+            <div class=Idk></div>
+            <div>
+        <span class=date>8 juli</span>
+            </div>
+        <div class=bottomLine>
+            <span class=aantal>aantal
+                <select>
+                    <option value="volvo">0</option>
+                    <option value="saab">1</option>
+                    <option value="opel">2</option>
+                    <option value="audi">3</option>
+                    <option value="audi">4</option>
+                    <option value="audi">5</option>
+                  </select>
+        </div></span>
+        <div class=space></div>
+              
+        </div>
+    </div>
+    
+    <h1>Food and Drinks</h1>
+                    
+    <!--food and drinks voucher-->
+    <div class=tabel>
+    <div class=container>
+        <div class=Idk></div>
+        <span class=ticket>Food and Drinks </span><span class=price>€ 30</span>
+        <div class=Idk></div>
+        <div>
+    <span class=date>10 vouchers</span>
+        </div>
+    <div class=bottomLine>
+    <span class=aantal>aantal
+    <select>
+        <option value="volvo">0</option>
+        <option value="saab">1</option>
+        <option value="opel">2</option>
+        <option value="audi">3</option>
+        <option value="audi">4</option>
+        <option value="audi">5</option>
+      </select>
+    </div></span>
+       <div class=space></div>
+          
+        </div>
+    
+        <div class=container>
+            <div class=Idk></div>
+            <span class=ticket>Food and Drinks </span><span class=price>€ 60</span>
+            <div class=Idk></div>
+            <div>
+        <span class=date>20 vouchers</span>
+            </div>
+        <div class=bottomLine>
+        <span class=aantal>aantal
+        <select>
+            <option value="volvo">0</option>
+            <option value="saab">1</option>
+            <option value="opel">2</option>
+            <option value="audi">3</option>
+            <option value="audi">4</option>
+            <option value="audi">5</option>
+          </select>
+        </div></span>
+           <div class=space></div>
+              
+            </div>
+    
+            <div class=container>
+                <div class=Idk></div>
+                <span class=ticket>Food and Drinks </span><span class=price>€ 80</span>
+                <div class=Idk></div>
+                <div>
+            <span class=date>30 vouchers</span>
+                </div>
+            <div class=bottomLine>
+            <span class=aantal>aantal
+            <select>
+                <option value="volvo">0</option>
+                <option value="saab">1</option>
+                <option value="opel">2</option>
+                <option value="audi">3</option>
+                <option value="audi">4</option>
+                <option value="audi">5</option>
+              </select>
+            </div></span>
+               <div class=space></div>
+                  
+                </div>
+            </div>
+            </section>
+    
+    
+    
+            <!--line-up-->
+        <!--ruiten-->
+        <section id="line-uplink" class="clearfix line-up">
+        <div class="ruit">
+                <svg 		width="500px" height="350px">
+                    <rect 	x=250 y=250  width="100" height="100" 
+                            transform="translate(280,-125) rotate(45) translate(70,-135)" 
+                            style="fill:rgba(255,255,255, 0.01);stroke-width:3;stroke:rgb(202, 173, 134)" />
+            
+                    <rect 	x=250 y=250  width="100" height="100" 
+                            transform="translate(280,-125) rotate(45) translate(60,-125)" 
+                            style="fill:rgb(255,255,255, 0.01);stroke-width:3;stroke:rgb(230, 180, 15)" />
+                    <text 	x="375" y="260" fill="hsla(166,64%,56%,1)" style=font-size:25px;>Line-up</text>
+                </svg>
+            </div>
+        <div class="lineup">
+                <div id="foto1">
+                    <img src="images/dua lipa.jpg" alt="foto">
+                    <div id="text-block1">
+                        <h3>Dua Lipa</h3>
+                    </div>
+                    <div class="fancy">
+                    </div>
+                </div>
+                <div id="foto2">
+                    <img src="images/brunomars.jpg" alt="foto">
+                    <div id="text-block2">
+                        <h3>Bruno Mars</h3>
+                    </div>
+                    <div class="fancy">
+                    </div>
+                </div>
+                <div id="foto3">
+                    <img src="images/Bebe-Rexha.jpg" alt="foto">
+                    <div id="text-block3">
+                        <h3>Bébé Rexha</h3>
+                    </div>
+                    <div class="fancy">
+                    </div>
+                </div>
+    
+            </section>
+            
+                <!--tabel-->
+    <div class="tabel">
+    <div class="gegK"> 		
+        <fieldset>
+        <h1>Gegevens koper</h1>
+    
+            <input type="text" name="naam"size="15"placeholder="Naam"/>
+            <input type="text" name="voornaam"size="15"placeholder="Voornaam"/><br>
+            <input type="text" name="e-mail"size="33"placeholder="E-mail"/><br>
+            <input type="text" name="Telnr"size="33"placeholder="Telefoonnummer"/><br>
+            <input type="text" name="Land"size="15"placeholder="Land"/>
+            <input type="text" name="Stad"size="15"placeholder="Stad"/><br>
+            <input type="text" name="Gemeente"size="15"placeholder="Gemeente"/>
+            <input type="text" name="Postcode"size="15"placeholder="Postcode"/><br>	
+        </fieldset>	
+    </div>
+    <!--ruiten-->
+    <section id="infolink" class="clearfix line-up">
+            <div class="ruit">
+                    <svg 		width="500px" height="350px">
+                        <rect 	x=250 y=250  width="100" height="100" 
+                                transform="translate(280,-125) rotate(45) translate(70,-135)" 
+                                style="fill:rgba(255,255,255, 0.01);stroke-width:3;stroke:rgb(202, 173, 134)" />
+                
+                        <rect 	x=250 y=250  width="100" height="100" 
+                                transform="translate(280,-125) rotate(45) translate(60,-125)" 
+                                style="fill:rgb(255,255,255, 0.01);stroke-width:3;stroke:rgb(230, 180, 15)" />
+                        <text 	x="395" y="255" fill="hsla(166,64%,56%,1)" style=font-size:25px;>Info</text>
+                    </svg>
+                </div>
+    <div class="vragen">
+        <fieldset>
+            <h1> Vragen?</h1>
+                    <input type="email" name="E-mail"size="31" id="E-mail" placeholder="E-mail"/>
+                    <label for="E-mail"></label>
+                    <input type="text"name="onderwerp" id="onderwerp"placeholder="Onderwerp"><br>
+                    <label for="onderwerp"></label>
+                    <textarea name="Bericht" cols="52" rows="6" placeholder="Bericht"></textarea><br>
+                    <input type="submit" name="Versturen"/>
+        </fieldset>
+    </div>
+        
+    
+            <!--mail-->
+            <h3>Wil je onze nieuwsbrief ontvangen?<br>Geef je e-mail adres in.</h3>
+            <div class="e-mail">
+                <tr>
+                        <td><label for="e-mail">E-mail:</label></td>
+                    <td><input type="email" name="e-mail" size="20" id="e-mail" placeholder="E-mail"/></td>	
+                </tr>
+            </div>
+    </div>
+    
+        
+        
+        </body>
+    </html>
