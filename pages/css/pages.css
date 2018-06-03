@@ -197,6 +197,7 @@ nav ul li a{
         height: 275px;
         background-color: black;
         padding: 0;
+        margin: 0;
     
         
     }
@@ -211,6 +212,7 @@ nav ul li a{
         background-color:rgb(91, 122, 140);
         border-bottom: 20px solid black;
         padding: 0;
+        margin: 0;
     }
     #foto2{
         float: left;
@@ -223,6 +225,7 @@ nav ul li a{
         background-color: rgb(91, 122, 140);
         border-bottom: 20px solid black;
         padding: 0;
+        margin: 0;
     }
     #foto3{
         float: left;
@@ -235,6 +238,7 @@ nav ul li a{
         background-color: rgb(91, 122, 140);
         border-bottom: 20px solid black;
         padding: 0;
+        margin: 0;
     }
     #text-block1{
         font-size: 30px;
@@ -250,6 +254,7 @@ nav ul li a{
         line-height: 80px;
         border-top: 5px solid black;
         padding: 0;
+        margin: 0;
     }
     #text-block2{
         font-size: 30px;
@@ -265,6 +270,7 @@ nav ul li a{
         line-height: 80px;
         border-top: 5px solid black;
         padding: 0;
+        margin: 0;
     }
     #text-block3{
         font-size: 30px;
@@ -280,6 +286,7 @@ nav ul li a{
         line-height: 80px;
         border-top: 5px solid black;
         padding: 0;
+        margin: 0;
     }
     
     .e-mail{
